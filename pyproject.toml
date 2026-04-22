@@ -25,7 +25,9 @@ classifiers = [
 ]
 
 [project.urls]
-Project = "https://github.com/lore1907/pyEEGPlot.git"
+Homepage = "https://github.com/lore1907/pyEEGPlot"
+Repository = "https://github.com/lore1907/pyEEGPlot"
+Issues = "https://github.com/lore1907/pyEEGPlot/issues"
 Documentation = "https://marco-congedo.github.io/EEGPlot.jl/dev/"
 
 
