@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyEEGPlot"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Lorenzo Bartoli", email="l.bartoli@studenti.unina.it" },
   { name="Lucrezia Di Marino", email="lucrezia.dimarino2@unina.it" },
