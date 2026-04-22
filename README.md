@@ -27,14 +27,25 @@ A Python wrapper for the Julia package [EEGPlot.jl](https://marco-congedo.github
 
 Before using `pyEEGPlot`, make sure that **Julia is installed** on your system and that the `julia` executable is available from your terminal or command prompt.
 
-### 2. Install the Python package
+### 2. Install pyEEGPlot
 
-Install `pyEEGPlot` from the project directory with:
+You can install `pyEEGPlot` directly from PyPi:
+
+```bash
+pip install pyEEGPlot
+```
+
+Alternatively, you can install it from source: 
 
 ```bash
 git clone https://github.com/lore1907/pyEEGPlot.git
 cd pyEEGPlot
 pip install .
+```
+
+Or install it directly from GitHub: 
+
+```bash
 # Or install it directly from Github
 pip install git+https://github.com/lore1907/pyEEGPlot.git
 ```
@@ -167,9 +178,9 @@ Event visualization is especially useful for:
 - time-locked inspection of EEG activity.
 
 
-## 🚀 Quick Start with PY API
+## 🚀 Quick Start with Python API
 
-The following examples mirror the [EEGPlot.jl Quick Start](https://marco-congedo.github.io/EEGPlot.jl/dev #%E2%80%94%E2%95%AE%E2%98%85-Quick-Start) and illustrate common usage patterns in Python.
+The following examples mirror the [EEGPlot.jl Quick Start](https://marco-congedo.github.io/EEGPlot.jl/dev#%E2%80%94%E2%95%AE%E2%98%85-Quick-Start) and illustrate common usage patterns in Python.
 
 ### Static Plot
 
