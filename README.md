@@ -1,11 +1,11 @@
-<p align="center">
-  <img src="assets/cover.png" alt="pyEEGPlot Cover" width="800"/>
-</p>
+![pyEEGPlot cover](https://raw.githubusercontent.com/lore1907/pyEEGPlot/main/assets/cover.png)
 
 # 🧠 pyEEGPlot
 > **Bring the power of Julia's EEGPlot.jl to your Python workflow.**
 
 A Python wrapper for the Julia package [EEGPlot.jl](https://marco-congedo.github.io/EEGPlot.jl/dev/), designed to bring EEGPlot's visualization capabilities to Python while preserving the original function syntax and terminology as closely as possible.
+
+![pyEEGPlot demo animation](https://raw.githubusercontent.com/lore1907/pyEEGPlot/main/assets/Animation3.gif)
 
 *Note: the first plot may take longer to appear because Julia compiles the required functions on first use. Subsequent plots are generated much faster.*
 
@@ -26,6 +26,10 @@ A Python wrapper for the Julia package [EEGPlot.jl](https://marco-congedo.github
 ### 1. Install Julia
 
 Before using `pyEEGPlot`, make sure that **Julia is installed** on your system and that the `julia` executable is available from your terminal or command prompt.
+
+Install Julia from the official Julia installation page:
+
+👉 [https://julialang.org/install/](https://julialang.org/install/)
 
 ### 2. Install pyEEGPlot
 
